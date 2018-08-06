@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17F77" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DoubleTimeEntity" representedClassName="DoubleTimeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="doubleTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="ListEntity" representedClassName="ListEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TimeEntity" representedClassName="TimeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DoubleTimeEntity" positionX="-387" positionY="27" width="128" height="60"/>
+        <element name="ListEntity" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="TimeEntity" positionX="-252" positionY="-87" width="128" height="60"/>
+        <element name="Entity" positionX="-225" positionY="-18" width="128" height="60"/>
+    </elements>
+</model>
